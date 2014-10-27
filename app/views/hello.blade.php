@@ -11,4 +11,8 @@
     @elseif (Session::has('fail'))
         <div class="alert alert-danger">{{ Session::get('fail') }}</div>
     @endif
+
+<div class="alert alert-success">Admin User: test<br />
+Password: 123456
+</div>
 @stop

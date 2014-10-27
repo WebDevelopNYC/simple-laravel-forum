@@ -23,10 +23,7 @@
                 </div>
         </div>
         @else
-            <div class="clearfix">
-                <h3 class="panel-title pull-left">{{ $category->title }}</h3>
-                <a href="{{ URL::route('forum-get-new-thread', $category->id) }}" class="btn btn-success btn-xs pull-right">New Thread</a>
-            </div>
+            
         @endif
 
         <div class="panel-body panel-list-group">
